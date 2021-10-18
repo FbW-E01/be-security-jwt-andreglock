@@ -3,8 +3,17 @@ GET http://localhost:8000/token
 Content-Type: application/json
 
 {
-    "username": "Veera cat",
-    "password": "catword"
+    "username": "Spoty",
+    "password": "oatscoffee"
+}
+
+### Make new user
+POST http://localhost:8000/token
+Content-Type: application/json
+
+{
+    "username": "Spoty",
+    "password": "oatscoffee"
 }
 
 ### Get secure message
