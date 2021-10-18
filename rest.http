@@ -1,6 +1,12 @@
 ### Get token
 GET http://localhost:8000/token
+Content-Type: application/json
+
+{
+    "username": "Veera cat",
+    "password": "catword"
+}
 
 ### Get secure message
 GET http://localhost:8000/secure
-Authorization: Bearer aaaa.bbbb.cccc
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQyLCJ1c2VybmFtZSI6IlZlZXJhIGNhdCIsImFkbWluIjp0cnVlLCJpYXQiOjE2MzQ1NTkwMDksImV4cCI6MTYzNDU1OTMwOX0.Vd2GYnw6S9m9goG39Q9CQ3GX1DVn2vWuCqjWHbKL22U
